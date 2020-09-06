@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Director_must_present</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( Director__c )</errorConditionFormula>
+    <errorDisplayField>Director__c</errorDisplayField>
+    <errorMessage>Director field should not be empty</errorMessage>
+</ValidationRule>
